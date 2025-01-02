@@ -13,6 +13,17 @@
 #include <string.h>
 #include <stdlib.h>
 
+#ifdef HEADR_USE_SHORTNAMES
+#define headr_vector_generate_type vector_generate_type
+#define headr_vector_init vector_init
+#define headr_vector_free vector_free
+#define headr_vector_append vector_append
+#define headr_vector_reserve vector_reserve
+#define headr_vector_remove vector_remove
+#define headr_vector_concat vector_concat
+#define headr_vector_copy vector_copy
+#endif
+
 #define HEADR_VECTOR_MIN_CAP 256
 
 /**_
