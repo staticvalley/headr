@@ -1,3 +1,6 @@
+# test files (for now)
+test/*
+
 # Prerequisites
 *.d
 
